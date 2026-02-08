@@ -1,0 +1,75 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Teste1",
+    "description": "myaddonStarter",
+    "uuid": "44d7d00c-fd23-4107-b23b-cf9226fa7667",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      130
+    ]
+  },
+  "modules": [
+    {
+      "description": "Behavior",
+      "version": [
+        1,
+        0,
+        0
+      ],
+      "uuid": "73ee3c20-7231-4e05-aa7e-0cb7d587f3a9",
+      "type": "data"
+    },
+    {
+      "description": "Script resources",
+      "language": "javascript",
+      "type": "script",
+      "uuid": "bb48dfbf-2cf4-4f6f-b91a-f1e9a0c60832",
+      "version": [
+        0,
+        0,
+        1
+      ],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "8db5d3f6-93ed-45a2-a958-127c18d59c2d",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": [
+        2,
+        4,
+        0
+      ]
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": [
+        2,
+        0,
+        0
+      ]
+    }
+  ],
+  "metadata": {
+    "generated_with": {
+      "mctoolsweb": [
+        "0.15.3"
+      ]
+    }
+  }
+}
